@@ -24,12 +24,13 @@ header >h1{
     padding: 35px 0px; 
     color: rgb(255, 255, 255);
     font-weight: 900;
+    font-size: 50%;
 }
 
 main{
     padding: 5px 0px;
     width: 95%;
-    max-width: 700px;
+    max-width: 1500px;
     margin: auto;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
     background-color: var(--cor-1);
@@ -43,15 +44,16 @@ main > div{
 }
 
 div > div{
-    width: 50%;
-    max-height: 150px;
-    max-width: 150px;
-    min-width: 75px;
+    margin: 2px 1px;
+    width: 45%;
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 50px;
     background-color: rgb(255, 255, 255);
     display: inline-block;
 }
 
 div > img{
-    padding: 5%;
+    padding: 5% 5%;
     width: 90%;
 }
